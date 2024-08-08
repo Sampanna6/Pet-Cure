@@ -1,0 +1,86 @@
+/* Page container to center the form */
+.profile-update-page {
+    background-color: #000; /* Black background for the page */
+    height: 100vh; /* Full height of the viewport */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem; /* Added padding to prevent content from touching edges */
+  }
+  
+  /* Form container */
+  .profile-update-container {
+    background-color: #fff; /* White background for the form */
+    padding: 0.5rem; /* Further reduced padding */
+    border-radius: 6px; /* Slightly smaller border radius */
+    max-width: 400px; /* Further reduced maximum width */
+    width: 100%;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1); /* Lighter shadow for better visibility */
+  }
+  
+  /* Form styling */
+  .profile-update-form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem; /* Reduced gap between form elements */
+  }
+  
+  /* Heading style */
+  .profile-update-form h2 {
+    font-size: 1.25rem; /* Smaller heading size */
+    color: #333; /* Dark grey color for the heading */
+    margin-bottom: 0.5rem; /* Reduced margin */
+  }
+  
+  /* Form group styling */
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0.5rem; /* Reduced bottom margin */
+  }
+  
+  /* Label styling */
+  .form-group label {
+    font-size: 0.75rem; /* Smaller font size */
+    color: #000; /* Black color for labels */
+    margin-bottom: 0.25rem; /* Reduced margin */
+  }
+  
+  /* Input styling */
+  .form-group input {
+    width: 100%;
+    padding: 0.25rem; /* Further reduced padding */
+    border-radius: 4px; /* Slightly smaller border radius */
+    border: 1px solid #ced4da;
+    font-size: 0.75rem; /* Smaller font size */
+  }
+  
+  /* Error input styling */
+  .form-group input.error {
+    border-color: #dc3545; /* Red border for errors */
+  }
+  
+  /* Error message styling */
+  .error-message {
+    color: #dc3545; /* Red color for error messages */
+    font-size: 0.625rem; /* Smaller font size for error messages */
+    margin-top: 0.25rem;
+  }
+  
+  /* Submit button styling */
+  .profile-update-form button {
+    padding: 0.25rem 0.75rem; /* Further reduced padding */
+    font-size: 0.75rem; /* Smaller font size */
+    color: #fff;
+    background-color: #ff5722; /* Orange background for the button */
+    border: none;
+    border-radius: 4px; /* Slightly smaller border radius */
+    cursor: pointer;
+    margin-top: 0.5rem; /* Reduced top margin */
+  }
+  
+  /* Button hover effect */
+  .profile-update-form button:hover {
+    background-color: #e64a19; /* Darker orange on hover */
+  }
+  

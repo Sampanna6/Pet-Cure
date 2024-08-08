@@ -1,0 +1,85 @@
+/* Apply black background color to the entire page */
+body {
+    background-color: #000000; /* Black background for the page */
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Container for centering the form */
+.outer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Use full viewport height */
+}
+
+/* Container styling */
+.container {
+    padding: 1rem;
+    background-color: #ffffff; /* White background for the form container */
+    border-radius: 10px;
+    max-width: 600px; /* Adjusted width for better alignment */
+    width: 100%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Add shadow for better visibility */
+}
+
+/* Header styling */
+.header-label {
+    font-size: 2.5rem; /* Adjusted font size */
+    padding: 1rem;
+    margin-bottom: 1rem;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 1rem 1rem 0 0;
+    background-color: #F4A460;
+    text-align: center;
+}
+
+/* Form styling */
+.form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding: 0 1rem; /* Reduced padding for a tighter form */
+}
+
+/* Form group styling */
+.form-group {
+    margin-bottom: 1rem;
+    flex: 1 1 48%; /* Adjust width to fit in two columns with gap */
+}
+
+/* Label styling */
+.label {
+    font-size: 1rem;
+    color: #000;
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+/* Input and select styling */
+.input, .select {
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 5px;
+    border: 1.5px solid #ced4da;
+    background-color: #fff;
+}
+
+/* Button styling */
+.button {
+    margin-top: 1rem;
+    padding: 0.5rem 2rem;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #ff0000; /* Red color */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+    width: 100%;
+}
+
+.button:hover {
+    background-color: #cc0000; /* Darker red on hover */
+}
